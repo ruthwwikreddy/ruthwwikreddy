@@ -9,7 +9,7 @@
 
 - 🤝 I’m looking for help with **MediLink - Healthcare Access Project**
 
-- 👨‍💻 All of my projects are available at [https://ruthwik-redd.github.io/](https://ruthwik-redd.github.io/)
+- 👨‍💻 All of my projects are available at [https://ruthwwikreddy.github.io/](https://ruthwwikreddy.github.io/)
 
 - 📝 I regularly write articles on [https://ruthwikredd.blogspot.com/](https://ruthwikredd.blogspot.com/)
 
