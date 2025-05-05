@@ -27,13 +27,3 @@
   </a>
 </div>
 
-<div align="center">
-<!-- <h3>✨: Languages Used :</h3> -->
-  <a href="https://github.com/ruthwwikreddy">
-    <img src="https://raw.githubusercontent.com/ruthwwikreddy/Stats/master/generated/overview.svg" alt="stats"/>
-  </a>
-  <a href="https://github.com/ruthwwikreddy">
-    <img src="https://raw.githubusercontent.com/ruthwwikreddy/Stats/master/generated/languages.svg" alt="stats"/>
-<!--     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruthwwikreddy&layout=compact" alt="streak"/> -->
-  </a>
-</div>
