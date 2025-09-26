@@ -24,7 +24,7 @@
 
 ## GitHub Snapshot
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ruthwwikreddy&theme=default&border_radius=6&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ruthwwikreddy&theme=default&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
   <br/><br/>
   <img src="https://github-readme-stats.vercel.app/api?username=ruthwwikreddy&show_icons=true&hide_border=true&theme=default" alt="GitHub Stats"/>
   <br/><br/>
