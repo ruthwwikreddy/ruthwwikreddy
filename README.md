@@ -4,30 +4,35 @@
 
 </p>
 
-
+---
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,python,tensorflow,firebase,git,github,vscode" />
 </p>
 
-
-
-<img src="https://github-readme-stats.vercel.app/api?username=ruthwwikreddy&show_icons=true&hide_border=true&bg_color=0d1117&title_color=CCCCCC&text_color=CCCCCC" />
-
+---
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ruthwwikreddy&bg_color=0d1117&color=CCCCCC&line=CCCCCC&point=FFFFFF&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ruthwwikreddy&show_icons=true&hide_border=true&title_color=CCCCCC&text_color=CCCCCC" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=CCCCCC&fire=CCCCCC&currStreakLabel=CCCCCC" width="48%" />
 </p>
 
 ---
 
-## ⚡ About
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ruthwwikreddy&color=CCCCCC&line=CCCCCC&point=888888&hide_border=true" />
+</p>
+
+---
+
+## About
 
 Turning ideas into real, working products.  
 I don’t just learn — I ship.
 
+---
 
-## 🧠 Philosophy
+## Philosophy
 
 ```txt
 Idea → Build → Break → Fix → Ship → Repeat
