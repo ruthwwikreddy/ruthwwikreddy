@@ -4,22 +4,21 @@
 
 </p>
 
----
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,python,tensorflow,firebase,git,github,vscode" />
 </p>
 
----
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=CCCCCC&fire=CCCCCC&currStreakLabel=CCCCCC" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=AAAAAA&fire=AAAAAA&currStreakLabel=AAAAAA" width="48%" />
 </p>
 
----
+
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ruthwwikreddy&color=CCCCCC&line=CCCCCC&point=888888&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ruthwwikreddy&color=AAAAAA&line=AAAAAA&point=888888&hide_border=true" />
 </p>
 
 ---
