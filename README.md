@@ -13,7 +13,6 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ruthwwikreddy&show_icons=true&hide_border=true&title_color=CCCCCC&text_color=CCCCCC" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=CCCCCC&fire=CCCCCC&currStreakLabel=CCCCCC" width="48%" />
 </p>
 
