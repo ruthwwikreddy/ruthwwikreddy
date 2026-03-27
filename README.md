@@ -5,16 +5,9 @@
 </p>
 
 
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,python,tensorflow,firebase,git,github,vscode" />
-</p>
-
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=AAAAAA&fire=AAAAAA&currStreakLabel=AAAAAA" width="48%" />
 </p>
-
 
 
 <p align="center">
