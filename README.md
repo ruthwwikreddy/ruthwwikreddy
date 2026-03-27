@@ -4,13 +4,19 @@
 
 </p>
 
----
+<br>
 
-# Ruthwik Reddy  
-**Builder · AI + Full-stack · 40+ Projects**
+<p align="center">
+<a href="https://www.thegitcity.com/dev/ruthwwikreddy">
+<img src="https://www.thegitcity.com/dev/ruthwwikreddy/opengraph-image" width="600" alt="Ruthwik Reddy - Git City"/>
+</a>
+</p>
 
----
+<br>
 
-## 📬 Contact
+<p align="center">
 
-akkenapally.reddy@gmail.com
+**Builder turning ideas into products**  
+**40+ projects shipped · AI + Full-stack · Building in public**
+
+</p>
