@@ -1,84 +1,122 @@
-<<<<<<< HEAD
-<p align="center">
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=CCCCCC&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Ruthwik+Reddy;Turning+ideas+into+real+products;40%2B+projects+shipped;AI+%7C+Full-stack+%7C+Builder)
-
-</p>
-
-
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,python,tensorflow,firebase,git,github,vscode" />
-</p>
-
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruthwwikreddy&hide_border=true&ring=CCCCCC&fire=CCCCCC&currStreakLabel=CCCCCC" width="48%" />
-</p>
-
----
-
-## About
-
-Turning ideas into real, working products.  
-I don’t just learn — I ship.
-
----
-
-## Philosophy
-
-```txt
-Idea → Build → Break → Fix → Ship → Repeat
-=======
 <div align="center">
 
-<img src="./ascii.svg" width="460" alt="Akkenapally Ruthwik Reddy"/>
+<img src="./ascii.svg" width="460" alt="Akkenapally Ruthwik Reddy" />
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+# Akkenapally Ruthwik Reddy
 
-[ruthwikreddy.xyz](https://ruthwikreddy.xyz/) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/ruthwwikreddy/) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/ruthwwikreddy/) &nbsp;·&nbsp;
-[x](https://x.com/_ruthwikreddy_)
+Builder • Full-Stack Developer • Student
+
+Building products that solve real problems through thoughtful
+design, scalable engineering, and AI.
+
+<img src="./stats.svg" width="620" alt="GitHub Statistics" />
+
+<a href="https://ruthwikreddy.live">Website</a> ·
+<a href="https://www.linkedin.com/in/ruthwwikreddy/">LinkedIn</a> ·
+<a href="https://x.com/_ruthwikreddy_">X</a> ·
+<a href="https://www.instagram.com/ruthwwikreddy/">Instagram</a>
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+<br>
 
-> High school student, Telangana, India. Turning ideas into real, working products.<br>
-> I don't just learn — I ship.
+<div align="center">
+<img src="./hd-about.svg" width="620" alt="about" />
+</div>
 
-Idea → Build → Break → Fix → Ship → Repeat. Right now that means<br>
-[medilink](https://github.com/ruthwwikreddy/medilink) — a healthcare web app — and<br>
-[sat](https://github.com/ruthwwikreddy/sat) — a free SAT prep studio built entirely in the browser. Also<br>
-deep into interactive UIs: physics simulations, real-time multiplayer, live data.
+I'm **Akkenapally Ruthwik Reddy**, a full-stack developer and
+high-school student from Hyderabad, India.
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+I enjoy building products from scratch—designing interfaces,
+architecting systems, and shipping software that people actually
+use.
 
-<samp>html &nbsp; css &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; python &nbsp; node &nbsp; firebase &nbsp; git &nbsp; linux</samp>
+Right now I'm focused on AI-powered developer tools, event
+technology, education platforms, and scalable web applications.
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+<br>
 
-**[medilink](https://github.com/ruthwwikreddy/medilink)** &nbsp;·&nbsp; <samp>html, css, js</samp><br>
-Healthcare web app — patient records, emergency contacts, QR-linked medical cards.<br>
-Also powers an emergency-card system used in real drills.
+<div align="center">
+<img src="./hd-stack.svg" width="620" alt="stack" />
+</div>
 
-**[sat](https://github.com/ruthwwikreddy/sat)** &nbsp;·&nbsp; <samp>html, js</samp><br>
-Free SAT prep app. Practice questions, timed tests, score tracking — no login, no paywall,<br>
-runs fully in the browser.
+### Languages
 
-**[ipl-auction](https://github.com/ruthwwikreddy/ipl-auction)** &nbsp;·&nbsp; <samp>typescript, firebase</samp><br>
-Real-time multiplayer IPL auction game — live bidding, team budgets, Firebase-backed rooms.<br>
-Built and played on the same day.
+<samp>TypeScript &nbsp; JavaScript &nbsp; Python &nbsp; HTML &nbsp;
+CSS</samp>
 
-**[WorkScape](https://github.com/ruthwwikreddy/WorkScape)** &nbsp;·&nbsp; <samp>typescript</samp><br>
-Productivity workspace app. Task management and focus tools in a clean, minimal UI.<br>
-Deployed at [work-scape.vercel.app](https://work-scape.vercel.app).
+### Frontend
 
-**[billing](https://github.com/ruthwwikreddy/billing)** &nbsp;·&nbsp; <samp>typescript</samp><br>
-Real-time UPI billing system — generates QR codes on the fly, tracks line items,<br>
-prints shareable invoices. Deployed at [billing-ecru-xi.vercel.app](https://billing-ecru-xi.vercel.app).
+<samp>React &nbsp; Next.js &nbsp; Tailwind CSS &nbsp;
+Framer Motion</samp>
 
-**[brain](https://github.com/ruthwwikreddy/brain)** &nbsp;·&nbsp; <samp>html</samp><br>
-Personal knowledge base — notes, references, and experiments. Most starred repo.
->>>>>>> 3408af2 (feat: self-generating github profile readme)
+### Backend
+
+<samp>Node.js &nbsp; Express &nbsp; Firebase &nbsp;
+Supabase &nbsp; REST APIs</samp>
+
+### AI & Tools
+
+<samp>OpenAI API &nbsp; Git &nbsp; GitHub &nbsp;
+Vercel &nbsp; Figma</samp>
+
+<br>
+
+<div align="center">
+<img src="./hd-projects.svg" width="620" alt="projects" />
+</div>
+
+**IdeaBoard**  
+<samp>Next.js &nbsp; TypeScript &nbsp; Firebase &nbsp; AI</samp><br>
+AI-powered platform that validates startup ideas and generates
+execution plans for founders.
+
+<br>
+
+**Gathrly**  
+<samp>Next.js &nbsp; React &nbsp; Razorpay &nbsp; Firebase</samp><br>
+Modern event management platform with registrations, payments,
+QR check-ins, and organizer dashboards.
+
+<br>
+
+**YŪGEN Summit Platform**  
+<samp>Next.js &nbsp; TypeScript &nbsp; Email &nbsp;
+Automation</samp><br>
+Complete event platform powering registrations, delegate
+allocations, committee management, and communication.
+
+<br>
+
+**SAT**  
+<samp>React &nbsp; TypeScript &nbsp; AI</samp><br>
+AI-assisted SAT preparation platform featuring adaptive practice,
+analytics, and personalized study plans.
+
+<br>
+
+**MediLink**  
+<samp>React &nbsp; Firebase &nbsp; Healthcare</samp><br>
+Digital healthcare platform with emergency medical profiles,
+hospital access, and secure document storage.
+
+<br>
+
+**Blind Vision**  
+<samp>Python &nbsp; AI &nbsp; Computer Vision</samp><br>
+Assistive wearable concept that helps visually impaired users
+navigate using AI-powered object detection.
+
+<br>
+
+<div align="center">
+
+## Philosophy
+
+> Build things that matter.
+>
+> Keep shipping.
+>
+> Learn in public.
+
+</div>
