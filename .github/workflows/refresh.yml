@@ -1,0 +1,48 @@
+name: refresh stats
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC = 10:47 IST — after GitHub's daily rollover
+  workflow_dispatch:        # allow manual trigger from Actions tab
+
+# No push trigger — this job commits, and a push trigger would re-run
+# the workflow on its own commit, creating an infinite loop.
+
+permissions:
+  contents: write           # needed to git push the generated SVGs
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # generate_stats.py uses stdlib only — no pip install needed
+      # generate_headers.py also stdlib — but needs fonts/headings.woff2 (committed)
+
+      - name: Generate stats SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/generate_stats.py
+
+      - name: Generate header SVGs
+        run: python3 scripts/generate_headers.py
+
+      - name: Commit if changed
+        run: |
+          FILES="stats.svg streak.svg langs.svg year.svg hd-about.svg hd-stack.svg hd-projects.svg"
+          if [ -z "$(git status --porcelain -- $FILES)" ]; then
+            echo "Nothing changed — skipping commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $FILES
+          git commit -m "stats: refresh $(date -u +%Y-%m-%d)"
+          git push

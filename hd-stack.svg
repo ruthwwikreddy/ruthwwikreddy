@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="28" viewBox="0 0 620 28">
+  <defs>
+    <style>
+      text {
+        font-family: monospace;
+        font-size: 13px;
+        fill: #57606a;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <text x="0" y="18">stack</text>
+  <line x1="49.0" y1="14" x2="620" y2="14"
+        stroke="#d0d7de" stroke-width="0.5"/>
+</svg>
