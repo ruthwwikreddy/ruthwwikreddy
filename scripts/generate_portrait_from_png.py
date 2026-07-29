@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 """
-generate_portrait_from_png.py — convert an ASCII-art PNG into ascii.svg with self-typing animation.
+generate_portrait_from_png.py — ultra-crisp 16:9 video aspect ratio ASCII portrait generator.
 
-Uses top-k pixel intensity pooling so high-frequency white text on dark background
-preserves all crisp details and features when downsampled to monospace ASCII grid.
+Generates a sharp, 16:9 widescreen animated ASCII SVG (110 cols x 31 rows)
+from pre-rendered ASCII images using contrast enhancement and top-k intensity pooling.
 """
 
 import argparse
@@ -16,20 +16,21 @@ ROOT  = Path(__file__).parent.parent
 FONTS = ROOT / "fonts"
 
 # ── ramp ─────────────────────────────────────────────────────────────────────
-RAMP = ' .`:-=+*cs#%@'
+RAMP = ' .:`-+*?s#%@$'
 N    = len(RAMP)
 
 # ── geometry ─────────────────────────────────────────────────────────────────
-COLS          = 90
+COLS          = 110
 CHAR_W        = 7.74      # JetBrains Mono 0.600 em at font-size 12.9
 FONT_SIZE     = 12.9
 LINE_H_RATIO  = 1.2
-ASPECT        = 0.48
-SVG_DISPLAY_W = 460
+# 31 rows gives an EXACT 16:9 widescreen video ratio for 110 columns!
+TARGET_ROWS   = 31
+SVG_DISPLAY_W = 460       # README display width (height will scale to ~259px for 16:9)
 
 # ── animation ────────────────────────────────────────────────────────────────
-ROW_STAGGER  = 0.08        # seconds between rows
-TYPE_SPEED   = 0.015       # seconds per character
+ROW_STAGGER  = 0.04        # seconds between rows
+TYPE_SPEED   = 0.010       # seconds per character
 TEXT_FILL    = "#57606a"
 
 
@@ -42,13 +43,17 @@ def load_font_b64() -> str | None:
 
 def image_to_lines(photo: Path) -> list[str]:
     try:
-        from PIL import Image
+        from PIL import Image, ImageEnhance
     except ImportError:
         sys.exit("Missing dependency: pillow\nRun: pip install pillow")
 
-    img = Image.open(photo).convert("L")
+    img_raw = Image.open(photo).convert("L")
 
-    rows = max(1, int(COLS * (img.height / img.width) * ASPECT))
+    # Enhance contrast for crisp features
+    enhancer = ImageEnhance.Contrast(img_raw)
+    img = enhancer.enhance(1.6)
+
+    rows = TARGET_ROWS
 
     block_w = img.width / COLS
     block_h = img.height / rows
@@ -63,10 +68,9 @@ def image_to_lines(photo: Path) -> list[str]:
             x2 = int((c + 1) * block_w)
             box = img.crop((x1, y1, x2, y2))
             
-            # Use top 25% brightest pixels in the block to capture ASCII character strokes
             box_bytes = box.tobytes()
             sorted_pixels = sorted(box_bytes, reverse=True)
-            top_k = max(1, len(sorted_pixels) // 4)
+            top_k = max(1, len(sorted_pixels) // 3)
             val = sum(sorted_pixels[:top_k]) / top_k
 
             idx = int((val / 255.0) * (N - 1))
@@ -103,7 +107,7 @@ def build_svg(lines: list[str], font_b64: str | None) -> str:
     parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg"'
         f' width="{SVG_DISPLAY_W}"'
-        f' height="{SVG_DISPLAY_W * (svg_h / svg_w):.0f}"'
+        f' height="{SVG_DISPLAY_W * (9 / 16):.0f}"'
         f' viewBox="0 0 {svg_w:.2f} {svg_h:.2f}">'
     )
     parts.append("  <defs>")
@@ -156,11 +160,11 @@ def main() -> None:
 
     print(f"Processing {photo.name} …")
     lines = image_to_lines(photo)
-    print(f"  → {len(lines)} rows × {COLS} cols")
+    print(f"  → {len(lines)} rows × {COLS} cols (16:9 ratio)")
 
     font_b64 = load_font_b64()
 
-    print("Building SVG …")
+    print("Building 16:9 SVG …")
     svg = build_svg(lines, font_b64)
 
     out = ROOT / "ascii.svg"
