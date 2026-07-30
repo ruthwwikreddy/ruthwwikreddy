@@ -8,13 +8,13 @@
     </style>
   </defs>
   <!-- current streak -->
-  <text class="big"  x="14"      y="34">0</text>
+  <text class="big"  x="14"      y="34">1</text>
   <text class="label" x="14"     y="50">current streak</text>
 
   <!-- longest streak -->
-  <text class="big"  x="310"      y="34">2</text>
+  <text class="big"  x="310"      y="34">13</text>
   <text class="label" x="310"     y="50">longest streak</text>
-  <text class="range" x="310"     y="64">1 Jan 2025 – 1 Jan 2025</text>
+  <text class="range" x="310"     y="64">23 Mar 2026 – 4 Apr 2026</text>
 
   <line x1="290" y1="8" x2="290" y2="64"
         stroke="#d0d7de" stroke-width="0.5"/>
