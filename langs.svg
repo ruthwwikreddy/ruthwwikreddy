@@ -6,12 +6,12 @@
     </style>
   </defs>
   <text class="label" x="14" y="20">top languages</text>
-  <rect x="14.0" y="36" width="372.2" height="8" rx="2" fill="#3178c6"/>  <rect x="386.2" y="36" width="118.6" height="8" rx="2" fill="#e34c26"/>  <rect x="504.8" y="36" width="46.7" height="8" rx="2" fill="#663399"/>  <rect x="551.4" y="36" width="27.3" height="8" rx="2" fill="#f1e05a"/>  <rect x="578.7" y="36" width="21.1" height="8" rx="2" fill="#3572A5"/>  <rect x="599.7" y="36" width="5.2" height="8" rx="2" fill="#3D6117"/>
+  <rect x="14.0" y="36" width="380.6" height="8" rx="2" fill="#3178c6"/>  <rect x="394.6" y="36" width="113.4" height="8" rx="2" fill="#e34c26"/>  <rect x="508.0" y="36" width="45.4" height="8" rx="2" fill="#663399"/>  <rect x="553.4" y="36" width="26.5" height="8" rx="2" fill="#f1e05a"/>  <rect x="579.9" y="36" width="20.1" height="8" rx="2" fill="#3572A5"/>  <rect x="600.0" y="36" width="4.9" height="8" rx="2" fill="#3D6117"/>
   <circle cx="18" cy="60" r="4" fill="#3178c6"/>
-  <text x="26" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">TypeScript 62.9%</text>  <circle cx="153.0" cy="60" r="4" fill="#e34c26"/>
-  <text x="161.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">HTML 20.0%</text>  <circle cx="243.0" cy="60" r="4" fill="#663399"/>
-  <text x="251.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">CSS 7.9%</text>  <circle cx="325.5" cy="60" r="4" fill="#f1e05a"/>
-  <text x="333.5" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">JavaScript 4.6%</text>  <circle cx="460.5" cy="60" r="4" fill="#3572A5"/>
-  <text x="468.5" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">Python 3.6%</text>  <circle cx="18" cy="78" r="4" fill="#3D6117"/>
-  <text x="26" y="82" style="font-family:monospace;font-size:11px;fill:#57606a">TeX 0.9%</text>
+  <text x="26" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">TypeScript 64.3%</text>  <circle cx="153.0" cy="60" r="4" fill="#e34c26"/>
+  <text x="161.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">HTML 19.2%</text>  <circle cx="243.0" cy="60" r="4" fill="#663399"/>
+  <text x="251.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">CSS 7.7%</text>  <circle cx="325.5" cy="60" r="4" fill="#f1e05a"/>
+  <text x="333.5" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">JavaScript 4.5%</text>  <circle cx="460.5" cy="60" r="4" fill="#3572A5"/>
+  <text x="468.5" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">Python 3.4%</text>  <circle cx="18" cy="78" r="4" fill="#3D6117"/>
+  <text x="26" y="82" style="font-family:monospace;font-size:11px;fill:#57606a">TeX 0.8%</text>
 </svg>
