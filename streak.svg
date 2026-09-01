@@ -8,7 +8,7 @@
     </style>
   </defs>
   <!-- current streak -->
-  <text class="big"  x="14"      y="34">1</text>
+  <text class="big"  x="14"      y="34">2</text>
   <text class="label" x="14"     y="50">current streak</text>
 
   <!-- longest streak -->
