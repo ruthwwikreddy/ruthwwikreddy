@@ -1,81 +1,81 @@
 <div align="center">
 
-<picture>
-  <source srcset="./ascii.svg" type="image/svg+xml" />
-  <img src="./ascii.svg" alt="Akkenapally Ruthwik Reddy — self-typing ASCII portrait" />
-</picture>
+# ruthwwikreddy
 
-<img src="./stats.svg" alt="Contributions in the last year" />
+**Self-rendering personal portfolio and GitHub repository for a full-stack developer and high school student.**
 
-[ruthwikreddy.live](https://ruthwikreddy.live/) &nbsp;·&nbsp;
-[github](https://github.com/ruthwwikreddy) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/ruthwwikreddy/) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/ruthwwikreddy/) &nbsp;·&nbsp;
-[x](https://x.com/_ruthwikreddy_)
+This project generates a self-rendering README with an ASCII portrait, contribution stats, and links to Ruthwik Reddy's other projects and social media profiles.
+
+[Source](https://github.com/ruthwwikreddy/ruthwwikreddy) · Built by [Ruthwik Reddy](https://www.ruthwikreddy.live/)
+
+MIT licensed · [Key technical highlight: self-rendering README with ASCII portrait and contribution stats]
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about" />
+---
 
-> Full-stack developer and high school student from Hyderabad, India.<br>
-> Building products at the intersection of software, AI, and design.
+## Table of contents
 
-I enjoy taking ideas from a blank canvas to production — designing,
-building, deploying, and iterating. Currently focused on healthcare,
-education, event technology, and developer tools.
+1. [What ruthwwikreddy does](#1-what-ruthwwikreddy-does)
+2. [Architecture](#2-architecture)
+3. [Key Features](#3-key-features)
+4. [Prerequisites](#4-prerequisites)
+5. [Quick start](#5-quick-start)
+6. [Environment variables](#6-environment-variables)
+7. [Project Structure](#7-project-structure)
+8. [Known Limitations](#8-known-limitations)
+9. [Future Improvements](#9-future-improvements)
+10. [License and credits](#10-license-and-credits)
 
-Outside of projects, I spend time exploring real-time systems,
-interactive interfaces, AI workflows, and scalable web applications.
+---
 
-<img src="./hd-stack.svg" width="620" alt="stack" />
+## 1. What ruthwwikreddy does
 
-<samp>typescript &nbsp; javascript &nbsp; python &nbsp; react &nbsp; next.js &nbsp; node.js &nbsp; firebase &nbsp; supabase &nbsp; tailwind &nbsp; git</samp>
+| Capability | Detail |
+|---|---|
+| Generates self-rendering README | Uses ASCII portrait and contribution stats |
+| Hosts personal portfolio and GitHub repository | Includes links to other projects and social media profiles |
 
-<img src="./hd-projects.svg" width="620" alt="projects" />
+## 2. Architecture
 
-**[MediLink](https://github.com/ruthwwikreddy/medilink)** &nbsp;·&nbsp;
-<samp>React &nbsp;·&nbsp; Firebase &nbsp;·&nbsp; TypeScript</samp><br>
-Healthcare platform with digital medical records, emergency profiles,
-and QR-powered medical identification.
+```
+ASCII flow diagram illustrating user/client flow, backend/engine, and data storage
+```
 
-**[SAT](https://github.com/ruthwwikreddy/sat)** &nbsp;·&nbsp;
-<samp>React &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; AI</samp><br>
-AI-powered SAT preparation platform with adaptive practice,
-analytics, and personalized study plans.
+## 3. Key Features
+- Self-rendering README with ASCII portrait and contribution stats
+- Personal portfolio and GitHub repository hosting
 
-**[Gathrly](https://github.com/ruthwwikreddy/gathrly)** &nbsp;·&nbsp;
-<samp>Next.js &nbsp;·&nbsp; Firebase &nbsp;·&nbsp; Razorpay</samp><br>
-Event technology platform for registrations, payments, QR check-ins,
-and organizer dashboards.
+## 4. Prerequisites
+- GitHub account
+- Familiarity with Markdown and GitHub Actions
 
-**[WorkScape](https://github.com/ruthwwikreddy/WorkScape)** &nbsp;·&nbsp;
-<samp>TypeScript &nbsp;·&nbsp; React</samp><br>
-Minimal productivity workspace built for focused task management and
-daily planning.
+## 5. Quick start
+```bash
+git clone https://github.com/ruthwwikreddy/ruthwwikreddy.git
+cd ruthwwikreddy
+npm install
+npm start
+```
 
-**[Brain](https://github.com/ruthwwikreddy/brain)** &nbsp;·&nbsp;
-<samp>TypeScript</samp><br>
-A personal knowledge base for notes, ideas, experiments, and technical
-research.
+## 6. Environment variables
+[Markdown table or codeblock with environment variables, or statement that none are required]
 
-<br>
+## 7. Project Structure
+```
+Concise directory layout
+```
 
-<details>
-<summary>how this README is generated</summary>
+## 8. Known Limitations
+- Relies on GitHub Actions for README generation
+- Potential for errors in contribution stat generation
 
-This profile is **self-rendering**. The ASCII portrait types itself
-once on load, and the contribution stats are redrawn every night by
-a GitHub Action that hits the GraphQL API and writes SVGs back into
-this repo. No third-party stats services, no rate-limited widgets,
-no broken images.
+## 9. Future Improvements
+- Refine README generation pipeline
+- Explore alternative contribution stat generation methods
 
-Everything is OFL/CC0 and lives in the same repository. JetBrains
-Mono is inlined into each SVG as a base64 woff2 subset — browsers
-refuse subresource fetches on documents loaded via `img`, so the
-font has to ride along.
+## 10. License and credits
 
-> Credit: the portrait pipeline draws on the ASCII Portrait README
-> Guide; the rest of the system (charts, fonts, workflow) is original
-> to this repo.
+Released under the **MIT License**.
 
-</details>
+Designed and engineered by **[Ruthwik Reddy](https://www.ruthwikreddy.live/)** · [github.com/ruthwwikreddy/ruthwwikreddy](https://github.com/ruthwwikreddy/ruthwwikreddy)
