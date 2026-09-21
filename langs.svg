@@ -6,12 +6,12 @@
     </style>
   </defs>
   <text class="label" x="14" y="20">top languages</text>
-  <rect x="14.0" y="36" width="298.2" height="8" rx="2" fill="#3178c6"/>  <rect x="312.2" y="36" width="123.3" height="8" rx="2" fill="#e34c26"/>  <rect x="435.5" y="36" width="77.9" height="8" rx="2" fill="#f1e05a"/>  <rect x="513.4" y="36" width="58.7" height="8" rx="2" fill="#663399"/>  <rect x="572.1" y="36" width="24.5" height="8" rx="2" fill="#3572A5"/>  <rect x="596.6" y="36" width="8.1" height="8" rx="2" fill="#3D6117"/>
+  <rect x="14.0" y="36" width="298.0" height="8" rx="2" fill="#3178c6"/>  <rect x="312.0" y="36" width="123.2" height="8" rx="2" fill="#e34c26"/>  <rect x="435.2" y="36" width="78.0" height="8" rx="2" fill="#f1e05a"/>  <rect x="513.1" y="36" width="59.0" height="8" rx="2" fill="#663399"/>  <rect x="572.1" y="36" width="24.5" height="8" rx="2" fill="#3572A5"/>  <rect x="596.6" y="36" width="8.1" height="8" rx="2" fill="#3D6117"/>
   <circle cx="18" cy="60" r="4" fill="#3178c6"/>
-  <text x="26" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">TypeScript 50.4%</text>  <circle cx="153.0" cy="60" r="4" fill="#e34c26"/>
+  <text x="26" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">TypeScript 50.3%</text>  <circle cx="153.0" cy="60" r="4" fill="#e34c26"/>
   <text x="161.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">HTML 20.8%</text>  <circle cx="243.0" cy="60" r="4" fill="#f1e05a"/>
   <text x="251.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">JavaScript 13.2%</text>  <circle cx="378.0" cy="60" r="4" fill="#663399"/>
-  <text x="386.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">CSS 9.9%</text>  <circle cx="460.5" cy="60" r="4" fill="#3572A5"/>
+  <text x="386.0" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">CSS 10.0%</text>  <circle cx="460.5" cy="60" r="4" fill="#3572A5"/>
   <text x="468.5" y="64" style="font-family:monospace;font-size:11px;fill:#57606a">Python 4.1%</text>  <circle cx="18" cy="78" r="4" fill="#3D6117"/>
   <text x="26" y="82" style="font-family:monospace;font-size:11px;fill:#57606a">TeX 1.4%</text>
 </svg>
